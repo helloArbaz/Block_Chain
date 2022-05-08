@@ -2,15 +2,15 @@
 
 pragma solidity >=0.7.0 < 0.9.0;
 
-contract  IdentityData
+ contract  IdentityData 
 {
 
     uint  age;
     string name;
 
-    constructor() public {
-        age=12;
-        name="salim";
+    constructor () public {
+        age=10;
+        name="Ajax";
     }
 
     function getName() view public returns(uint)  {
