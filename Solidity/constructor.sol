@@ -3,11 +3,13 @@
 pragma solidity >=0.7.0 < 0.9.0;
 
 
-contract Cons { 
+contract Constrct { 
 
-    uint age=0;
+    uint public age=0;
 
-    constructor(){
-        age = 30;
+    constructor(uint _newVal){
+        age = _newVal;
     }
+
+
 }
