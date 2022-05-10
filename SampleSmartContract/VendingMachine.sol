@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 < 0.9.0;
 
-// background
+// story
 // we can get the VM balance
-// users can purchased the itmes
-// each items is > 1 ether
-// add services charges
+// user can purchased the itmes
+// each items is > 2 ether
 // stockup the values
 
 contract VendingMachine {
